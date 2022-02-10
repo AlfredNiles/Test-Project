@@ -1,0 +1,55 @@
+* html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* always include the above */
+
+h1 {
+color: crimson;
+font-family: sans-serif;
+}
+
+p {
+  background-color: black;
+  /* float: left; */
+  font-family: sans-serif;
+  color: thistle; /* text color */
+  padding: 20px; /* this element determines the spacing between the text box and the end of the text */
+  max-width: 500px;
+}
+
+.funky {
+  background-color: darkred;
+  border: solid crimson 3px;
+  color: blue;
+  font-size: 24px;
+  outline: dashed blue 1px; /* text box outline */
+}
+
+  #chunky {
+  background-color: peachpuff;
+  color: lime;
+  font-size: 42;
+  border: solid pink 9px;
+  }
+
+}
+
+a {
+color:yellow;
+}
+
+a:hover {
+background-color:gold;
+color: black;
+}
+/* To target a class name used in your HTML put a . before the name */
+.center-content {
+margin-left: auto;
+margin-right: auto; /* spacing between the box and the border of the window */
+max-width: 500px;
+width:90%; /* we want this element to take up exactly this much space */
+}
